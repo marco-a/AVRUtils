@@ -2,7 +2,7 @@
  *	@file		IO/setDirection.h
  */
 #if !defined(AVRUtils_INTERN) || AVRUtils_INTERN != 1
-	#error "Do not directly include this file. Include <AVRUtils/IO.h> instead!"
+	#error "Do not directly include this file. Include <AVRUtils/IO/IO.h> instead!"
 #endif
 
 #if !defined(AVRUtils__IO_SETDIRECTION_H)
