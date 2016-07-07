@@ -43,8 +43,8 @@ And guess what? The code is efficient as well! Have a look at the generated [ass
 ### I/O bus example
 Sometimes it is not possible (due physical constraints) to route all positions from a bus to the same port on the microcontroller.
 For example: you have a 4 bit wide bus where 2 bits are on port C and 2 bits are on port F.
-A real mess! You know what I'm talking about if you ever had this situation before!
-Well, those days are finally gone! The included I/O module provides an easy and straightforward solution to that problem!
+A real mess! You know what I'm talking about if you ever had this situation before.
+But those days are now gone, the included I/O module provides an easy and straightforward solution to this problem:
 
 How? You simply define each position with the `io__sfr` macro and then join them together with the `io__bus` macro:
 
