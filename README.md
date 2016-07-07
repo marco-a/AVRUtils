@@ -104,8 +104,9 @@ Have a look at this [wiki](https://github.com/marco-a/AVRUtils/wiki/I-O-Module) 
 ## How to use it
 
 Just download the library and include it in your project.
-Don't forget to compile at least with  `Os` optimization level.
-Also use the `-flto` flag while compiling. (very important!)
+
+Don't forget to compile at least with  `Os` optimization level, also use the `-flto` flag while compiling. (very important!)
+
 The library is tested to work with `avr-gcc 4.8.3`.
 
 ## Roadmap
