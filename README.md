@@ -118,6 +118,7 @@ The library is tested to work with `avr-gcc 4.8.3`.
 ## Bugs & Contributions 
 
 Please report bugs by the [issues](https://github.com/marco-a/AVRUtils/issues) function provided by GitHub.
+
 Contributions are very welcome! Please use the issues tool for these as well, thank you.
 
 
