@@ -105,13 +105,13 @@ Have a look at this [wiki](https://github.com/marco-a/AVRUtils/wiki/I-O-Module) 
 
 Just download the library and include it in your project.
 
-Don't forget to compile at least with  `Os` optimization level, also use the `-flto` flag while compiling. (very important!)
+Don't forget to compile at least with  `Os` optimization level and also use the `-flto` flag while compiling. (very important!)
 
 The library is tested to work with `avr-gcc 4.8.3`.
 
 ## Roadmap
 
-- Even more optimization for I/O operations.
+- More optimization for I/O operations.
 - Comprehensive tests (Assembly / Oscilloscope).
 - Timer / TWI / UART module...
 
