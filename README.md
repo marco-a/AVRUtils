@@ -37,7 +37,7 @@ int main(void) {
 ```
 
 As you can see, the logic of the code is completely isolated from the physical locations of the pins!
-And guess what? The code is efficient as well! Have a look at the generated [assembly](https://github.com/marco-a/AVRUtils/blob/master/example.s), if you dare :-)
+And guess what? The code is efficient as well! Take a look at the generated [assembly](https://github.com/marco-a/AVRUtils/blob/master/example.s).
 
 
 ### I/O bus example
@@ -49,7 +49,7 @@ Well, those days are finally gone! The included I/O module provides an easy and 
 How? You simply define each position with the `io__sfr` macro and then join them together with the `io__bus` macro:
 
 ```c
-#include <AVRUtil/IO/IO.h>
+#include <AVRUtils/IO/IO.h>
 
 /*!
  *	Target:		ATMega2560

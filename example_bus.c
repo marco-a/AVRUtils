@@ -1,4 +1,4 @@
-#include <AVRUtil/IO/IO.h>
+#include <AVRUtils/IO/IO.h>
 
 // Define some switches
 #define I0		io__sfr(L, 1)	// PL1
