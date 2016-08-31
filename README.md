@@ -111,6 +111,8 @@ The library is tested to work with `avr-gcc 4.8.3`.
 
 ## Roadmap
 
+- Enable mocking functions to test I/O without a microcontroller.
+- Add statemachine module.
 - Even more optimization for I/O operations.
 - Comprehensive tests (Assembly / Oscilloscope).
 - Timer / TWI / UART module...
